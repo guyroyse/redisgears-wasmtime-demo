@@ -18,5 +18,3 @@ conn.set('subtract', subtract_bytes)
 
 print(conn.execute_command('RG.TRIGGER', 'wasm', 'add', 23))
 print(conn.execute_command('RG.TRIGGER', 'wasm', 'subtract', 23))
-
-conn.delete('a')
