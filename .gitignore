@@ -1,4 +1,3 @@
 .vscode
 redis
 venv
-*.wasm
